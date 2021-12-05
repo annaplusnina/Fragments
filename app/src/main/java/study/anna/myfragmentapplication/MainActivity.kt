@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
             }
-            replaceFragment(fragment!!)
+
 
             true
 
