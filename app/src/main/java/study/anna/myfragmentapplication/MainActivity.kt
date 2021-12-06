@@ -23,19 +23,22 @@ class MainActivity : AppCompatActivity() {
 
             var fragment: Fragment? = null
             when (item.itemId) {
-                R.id.fragment_1 -> {
+                R.id.page_1 -> {
                     fragment = FirstFragment()
 
+
                 }
-                R.id.fragment_2 -> {
+                R.id.page_2 -> {
                     fragment = SecondFragment()
+
 
                 }
 
             }
-
+replaceFragment(fragment!!)
 
             true
+        }
 
         }
 
@@ -50,4 +53,5 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
-}
+
+

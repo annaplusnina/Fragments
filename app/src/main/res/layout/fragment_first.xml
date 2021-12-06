@@ -6,10 +6,15 @@
     tools:context=".FirstFragment">
 
 
-    <TextView
+
+    <Button
+        android:id="@+id/hello"
+        android:textSize="20dp"
+        android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="@string/first" />
+        android:text="@string/hello"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        />
 
 </FrameLayout>

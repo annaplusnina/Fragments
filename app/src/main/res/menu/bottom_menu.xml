@@ -2,14 +2,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-       android:id="@+id/fragment_1"
+       android:id="@+id/page_1"
         android:enabled="true"
         android:icon="@drawable/ic_android_black_24dp"
-        android:title="@string/_1_fragment"/>
+        android:title="@string/page_one"/>
     <item
-        android:id="@+id/fragment_2"
+        android:id="@+id/page_2"
         android:enabled="true"
         android:icon="@drawable/ic_android_black_24dp"
-        android:title="@string/_2_fragment"/>
+        android:title="@string/page_two"/>
 
     </menu>
