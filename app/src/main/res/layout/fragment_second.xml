@@ -6,12 +6,12 @@
     tools:context=".SecondFragment">
 
     <Button
-        android:id="@+id/bye"
+        android:id="@+id/let_s_read"
         android:layout_gravity="center"
         android:textSize="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/bye"
+        android:text="@string/let_s_read"
         style="@style/Widget.MaterialComponents.Button.TextButton"
         />
 

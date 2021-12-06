@@ -12,4 +12,8 @@
     <string name="bye">Bye</string>
     <string name="page_two">page two</string>
     <string name="page_one">page one</string>
+    <string name="let_s_read">let\'s read</string>
+    <string name="let_s_play">let `s play</string>
+    <string name="game">Game</string>
+    <string name="book">Book</string>
 </resources>

@@ -8,12 +8,12 @@
 
 
     <Button
-        android:id="@+id/hello"
+        android:id="@+id/let_s_play"
         android:textSize="20dp"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello"
+        android:text="@string/let_s_play"
         style="@style/Widget.MaterialComponents.Button.TextButton"
         />
 

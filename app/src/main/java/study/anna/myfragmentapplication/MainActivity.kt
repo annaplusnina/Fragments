@@ -8,10 +8,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 private const val TAG = "MainActivity"
 
 class MainActivity : AppCompatActivity() {
-
     lateinit var bottonNavigationMenu: BottomNavigationView
-
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,35 +20,28 @@ class MainActivity : AppCompatActivity() {
 
             var fragment: Fragment? = null
             when (item.itemId) {
-                R.id.page_1 -> {
+                R.id.game -> {
                     fragment = FirstFragment()
-
-
                 }
-                R.id.page_2 -> {
+                R.id.book -> {
                     fragment = SecondFragment()
-
-
                 }
-
             }
-replaceFragment(fragment!!)
+            replaceFragment(fragment!!)
 
             true
         }
-
-        }
-
-        fun replaceFragment(fragment: Fragment) {
-
-            supportFragmentManager
-                .beginTransaction()
-                .replace(R.id.fragment_Container, fragment)
-                .addToBackStack(fragment.tag)
-                .commit()
-
-        }
-
     }
+
+    fun replaceFragment(fragment: Fragment) {
+
+        supportFragmentManager
+            .beginTransaction()
+            .replace(R.id.fragment_Container, fragment)
+            .addToBackStack(fragment.tag)
+            .commit()
+    }
+
+}
 
 
